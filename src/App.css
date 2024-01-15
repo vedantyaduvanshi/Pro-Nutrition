@@ -1,0 +1,46 @@
+/* add your styles here */
+
+
+
+#TitleText{
+    text-align: center;
+  }
+  
+  
+  #image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+  
+  #image-container {
+    flex: 1 0 calc(50% - 10px); 
+    margin-bottom: 10px; 
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+
+  .selected-foods {
+    margin-top: 20px;
+  }
+  
+  .selected-food-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .reset-button {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
